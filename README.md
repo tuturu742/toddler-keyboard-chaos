@@ -1,10 +1,10 @@
-# TinyFingers Desktop
+# Toddler Keyboard Chaos
 
 A fullscreen smash toy for toddlers — keys and clicks make shapes, colours and sounds —
 as a **desktop app** rather than a web page.
 
-In the spirit of [TinyFingers](https://tinyfingers.net/), and built for the one thing a
-browser cannot do: **hold the keys that would end the session.** In a tab, `Esc` leaves
+A desktop app because of the one thing a browser cannot do: **hold the keys that would end
+the session.** In a tab, `Esc` leaves
 fullscreen, `/` opens quick-find, and `F11`, `Ctrl+W` and `Cmd+Q` belong to the browser. A
 desktop shell can intercept them. Leaving requires a password, `parent` by default.
 
@@ -13,8 +13,7 @@ desktop shell can intercept them. Leaving requires a password, `parent` by defau
 ## This repository is an exercise
 
 **`main` is deliberately a scaffold.** A `package.json`, an empty `test/`, a licence and
-this file — no app. The working application lives in **[pull request
-#5](https://github.com/tuturu742/tinyfingers-desktop/pull/5)**, built end to end by
+this file — no app. The working application lives in a **pull request** on this repository, built end to end by
 [Pyrrhula](https://github.com/tuturu742/pyrrhula)'s coding agents: a lead persona frames the
 work, a developer persona builds it inside a container through a coding harness, and the
 lead reads the diff against the task and approves it or sends it back. It was opened by one
@@ -74,7 +73,7 @@ To leave the running app: type the password (`parent` by default) and press Ente
 ## Running the exercise yourself
 
 The steps live with the sample, in
-**[pyrrhula-samples/tinyfingers-desktop](https://github.com/tuturu742/pyrrhula-samples/tree/main/tinyfingers-desktop)**:
+**[pyrrhula-samples/toddler-keyboard-chaos](https://github.com/tuturu742/pyrrhula-samples/tree/main/toddler-keyboard-chaos)**:
 a `.pyr` bundle carrying the two personas (including the developer's harness selection) and
 a README that starts at "sign up" and ends at a pull request on your fork.
 
